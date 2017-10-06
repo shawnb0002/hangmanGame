@@ -1,0 +1,6 @@
+.wordStyle{
+    list-style-type: none !important;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4em;
+}
