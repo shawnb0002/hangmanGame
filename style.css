@@ -1,0 +1,15 @@
+.wordStyle{
+    list-style-type: none !important;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 4em;
+}
+
+.wordList{
+    list-style-type: none;  
+}
+
+.hangmanImage{
+    width: 35%;
+    align-items: center;
+}
