@@ -1,16 +1,13 @@
 <?php
-require_once('../model/database.php');
 
-try{
-    $results = $db->query('SELECT * FROM hangmanGame');
-}catch(Exception $e){
-    echo $e->getMessage();
-}
+$results = $db->query('SELECT * FROM hangmanGame');
 
-$words = ($results->fetchAll(PDO::FETCH_ASSOC));
+$words = $results->fetchALL();
 
-shuffle($words);
 
-$oneWord = array_splice($words,1);
 
-?>
+ shuffle($words);
+
+
+
+ ?>
